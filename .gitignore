@@ -1,0 +1,40 @@
+# Archivos de salida
+bin/
+obj/
+*.exe
+*.dll
+
+# Archivos temporales de .NET
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Dependencias y NuGet
+**/packages/*
+*.nupkg
+
+# Logs y bases de datos locales
+*.log
+*.sqlite
+*.mdf
+*.ldf
+*.cache
+**/*.cache
+**/obj/**
+
+# Archivos de configuración del IDE
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln.docstates
+
+# Archivos generados por pruebas
+TestResults/
+[Tt]est[Rr]esult*/
+
+# Archivos de compilación
+*.csproj.user
+*.msbuilds
+*.pubxml
+*.pubxml.user
