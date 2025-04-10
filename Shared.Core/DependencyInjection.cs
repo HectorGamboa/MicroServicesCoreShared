@@ -12,7 +12,7 @@ namespace Shared.Core
 {
     public static class DependencyInjection
     {
-        public static IServiceCollection AddServicesShared<TContext>( IServiceCollection services, IConfiguration configuration, string fileName) where TContext : DbContext
+        public static IServiceCollection AddServicesShared<TContext>( this IServiceCollection services, IConfiguration configuration, string fileName) where TContext : DbContext
         {
 
            //services.AddDbContext<TContext>( options => options
